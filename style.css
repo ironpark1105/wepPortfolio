@@ -570,6 +570,8 @@ p {
     pointer-events: auto;
 } 
 
+/* 서브2 */
+
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
     :root {
@@ -580,6 +582,9 @@ p {
         --font-micro: 12px;
     }
 
+    #home{
+        width: 100%;
+    }
     .navbar__toggle-btn {
         display: block;
         top: 16px;
