@@ -570,6 +570,24 @@ p {
     pointer-events: auto;
 } 
 
+.sub-img{
+    padding-top: 100px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.sub-img2-box{
+    padding-top: 100px;
+}
+.sub-img2{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
 /* 서브2 */
 
 /* For below 768px screen width */
