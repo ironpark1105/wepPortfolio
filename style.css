@@ -40,7 +40,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     margin: 0;
     cursor: default;
 }
@@ -551,6 +551,9 @@ p {
     transition: all var(--animation-duration) ease-in;
 }
 
+.contact__title{
+    font-size: 36px;
+}
 /* Scroll */
 .arrow-up {
     position: fixed;
@@ -704,9 +707,9 @@ p {
         right: 16px;
         bottom: 16px;
     } 
+    .contact__title{
+        font-size: 16px;
+    }
+    
 }
-.contact__title{
-    font-size: 16px;
-}
-
 
