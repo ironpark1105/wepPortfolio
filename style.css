@@ -120,6 +120,7 @@ p {
 #navbar.navbar--dark {
     background-color: var(--color-blue);
     padding: 1px;
+    padding: 16px;
     transition: all var(--animation-duration) ease-in-out;
 }
 
@@ -239,7 +240,6 @@ p {
     justify-content: space-between;
     margin-top: 30px;
     padding-bottom: 30px;
-    border-bottom: solid 1px #ddd;
 }
 
 .major__icon {
@@ -335,7 +335,7 @@ p {
     display: flex;
     background-color: var(--color-light-grey);
     color: var(--color-light-white);
-    margin: 20px 0;
+    margin: 0px 0;
 }
 
 .skillset__title {
@@ -343,7 +343,7 @@ p {
 }
 
 .skillset__left {
-    flex-basis: 50%;
+    flex-basis: 75%;
     background-color: var(--color-dark-grey);
     padding: 20px 40px;
 }
@@ -441,12 +441,12 @@ p {
 .project {
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 30%;
     height: 250px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     background-color: var(--color-light-white);
 }
 .project:first-child, 
@@ -619,7 +619,6 @@ p {
     #navbar.navbar--dark {
         padding: 16px;
     }
-    
     .navbar__menu {
         flex-direction: column;
         text-align: center;
